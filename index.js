@@ -43,6 +43,7 @@ function render(resume) {
 
 const marginValue = '0.8 cm';
 const pdfRenderOptions = {
+  format: 'Legal',
   margin: {
     top: marginValue,
     bottom: marginValue,
